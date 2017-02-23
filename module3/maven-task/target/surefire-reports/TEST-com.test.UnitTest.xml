@@ -57,5 +57,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.test.UnitTest" name="test" time="0"/>
+  <testcase classname="com.test.UnitTest" name="test" time="0.001"/>
 </testsuite>

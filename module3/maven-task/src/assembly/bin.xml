@@ -1,0 +1,26 @@
+<assembly>
+ <formats>
+  <format>tar</format>
+  <format>tar.gz</format>
+ </formats>
+ <includeBaseDirectory>false</includeBaseDirectory>
+ <dependencySets>
+  <dependencySet>
+   <includes>
+    <include>groupId.example:artifactId.example</include>
+   </includes>
+   <unpack>false</unpack>
+   <scope>runtime</scope>
+   <outputDirectory>${plugin.name}</outputDirectory>
+  </dependencySet>
+ </dependencySets>
+ <fileSets>
+   <fileSet>
+   <directory>target</directory>
+   <outputDirectory>target</outputDirectory>
+   <includes>
+    <include>*.jar</include>
+   </includes>
+  </fileSet>
+ </fileSets>
+</assembly>

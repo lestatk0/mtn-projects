@@ -50,7 +50,6 @@
   <target name="dist" depends="compile" >
     <mkdir dir="${dist}"/>
     <jar jarfile="${dist}/testProject.jar" basedir="${build}"/>
-    <tar destfile="${dist}/testProject.tar" basedir="${dist}"/>
     <echo>=== Distribution  ===</echo>
   </target>
 

@@ -1,7 +1,7 @@
 package com.test;
 
 //dependency on Apache commons-collections
-import org.apache.commons.collections.Predicate;
+import org.apache.commons.collections4.Predicate;
 
 class Project {
 

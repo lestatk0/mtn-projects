@@ -6,9 +6,6 @@
  <includeBaseDirectory>false</includeBaseDirectory>
  <dependencySets>
   <dependencySet>
-   <includes>
-    <include>groupId.example:artifactId.example</include>
-   </includes>
    <unpack>false</unpack>
    <scope>runtime</scope>
    <outputDirectory>${plugin.name}</outputDirectory>

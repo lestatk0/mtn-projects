@@ -13,7 +13,7 @@ class Project {
     System.out.println("Hellow MTN");
   }
 
-  public static void main(String[] args) {
-    System.out.println("Hellow test");
+  public static void test2() {
+    System.out.println("test");
   }
 }

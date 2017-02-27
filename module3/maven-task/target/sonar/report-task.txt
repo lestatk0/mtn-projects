@@ -1,0 +1,5 @@
+projectKey=com.mtn.training:Result
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/com.mtn.training:Result
+ceTaskId=AVp_RYxA9XbU-zB5Qq8k
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVp_RYxA9XbU-zB5Qq8k
